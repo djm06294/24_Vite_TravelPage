@@ -1,0 +1,19 @@
+.totalCount {
+  display: flex;
+  justify-content: end;
+  margin: auto;
+  padding: 1rem;
+  /* border: 1px solid yellow; */
+  transform: translateY(-11rem);
+}
+
+.totalCount > * {
+  color: var(--color-purple);
+  padding: 0.5rem;
+}
+.totalCount span {
+  background-color: var(--color-gray100);
+  border-radius: 1rem;
+  padding: 10px;
+  color: var(--color-whitish);
+}

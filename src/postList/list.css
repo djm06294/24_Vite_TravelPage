@@ -1,0 +1,50 @@
+.noList {
+  border-top: 1px solid gray;
+  margin: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0 100px;
+  gap: 1rem;
+  transform: translateY(-11rem);
+  opacity: 0.5;
+}
+/* .noList > * {
+  border: 1px solid white;
+} */
+.noList i {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.postList {
+  border-top: 1px solid gray;
+  padding-top: 2rem;
+  transform: translateY(-11rem);
+}
+.list > * {
+  border: 1px solid black;
+}
+.list {
+  /* border: 1px solid yellow; */
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+.list i {
+  cursor: pointer;
+  display: block;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+}
+.list i:hover {
+  color: darkgray;
+}

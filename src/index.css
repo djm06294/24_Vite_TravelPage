@@ -1,0 +1,28 @@
+/* 전체 반영되는 css 정리하는 파일 */
+/* reset 해줌 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  --color-purple: #5e60ce;
+  --color-whitish: #eeeded;
+  --color-gray100: #cccccc;
+  --color-gray200: #808080;
+  --color-gray500: #262626;
+  --color-gray700: #191919;
+  --color-blue1: #4ea8de;
+  --color-blue2: #1e6f9f;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+body {
+  background-color: #1a1a1a;
+}
+
+.mw {
+  max-width: 800px;
+  margin: auto;
+}

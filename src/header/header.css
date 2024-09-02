@@ -1,0 +1,24 @@
+.header {
+  border: 1px solid red;
+  background-color: var(--color-gray700);
+  height: 200px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header * {
+  cursor: pointer;
+}
+.header strong:nth-of-type(1) {
+  color: var(--color-blue1);
+  padding-left: 1rem;
+}
+.header strong:nth-of-type(2) {
+  color: var(--color-blue2);
+}
+.header i {
+  color: var(--color-purple);
+  transform: translate(10px, 5px) rotateZ(-45deg);
+}
