@@ -1,5 +1,5 @@
 .inputField {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 100px 0 100px 0;
   display: flex;
   position: relative;
@@ -28,7 +28,7 @@
   color: white;
 }
 .inputField button {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding-right: 2.5rem;
   background-color: var(--color-blue2);
   color: white;
